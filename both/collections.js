@@ -1,0 +1,1 @@
+colThings = new Mongo.Collection('things');

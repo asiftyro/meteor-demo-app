@@ -1,0 +1,8 @@
+<template name="tplMainLayout">
+{{#if currentUser}}
+    {{> Template.dynamic template=regMenu }}
+    {{> Template.dynamic template=regContent }}
+    {{else}}
+        {{>tplLogin}}
+    {{/if}}
+</template>
