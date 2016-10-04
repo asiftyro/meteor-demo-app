@@ -3,6 +3,7 @@ A demo MeteorJS app created for learning purpose.
 
 Topics:
 
+ - template and layouts
  - helper and events
  - routing with flow router
  - rendering with blaze layout
